@@ -17,7 +17,15 @@ add wave -hex UUT/LED_GREEN_O
 add wave -divider -height 20 {internal signals}
 add wave -hex UUT/debounce_shift_reg
 add wave -hex UUT/push_button_status_buf
+add wave -bin UUT/pause0
+add wave -bin UUT/p0
 add wave -bin UUT/stop_count
+add wave -bin UUT/s_count
+add wave -bin UUT/up_count
+add wave -bin UUT/u_count
+add wave -bin UUT/down_count
+add wave -bin UUT/d_count
+add wave -bin UUT/flag
 add wave -hex {UUT/counter[7:4]}
 add wave -hex {UUT/counter[3:0]}
 
